@@ -33,13 +33,14 @@ body {
 /*Header*/
 .header {
   width: 100%;
-  height: 100px;
   padding-top: 70px;
   padding-bottom: 50px;
 }
 
 .header__menu {
   width: 100%;
+  height: 100px;
+  margin-left: 0;
 }
 
 .menu__list {
@@ -47,7 +48,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 36px;
+  gap: 34px;
 }
 
 .menu__item {
@@ -71,20 +72,24 @@ body {
 .first-screen {
   width: 100%;
   padding-top: 20px;
+}
+
+.first-screen__item {
   display: flex;
   flex-direction: column;
+  margin-left: 0;
 }
 
 .first-screen__title {
   color: var(--black);
   font-size: 3rem;
   font-weight: 500;
-  margin-top: 110px;
+  margin-top: 10px;
   margin-bottom: 49px;
 }
 
 .first-screen__text {
-  width: 540px;
+  max-width: 540px;
   color: var(--grey);
   font-weight: 400;
   line-height: var(--line-height);
@@ -232,12 +237,14 @@ body {
 .video__item-box {
   width: 100%;
   height: 600px;
+  border: none;
 }
 
 .video__item {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border: none;
 }
 
 /*Footer*/
@@ -253,7 +260,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  gap: 15px;
+  gap: 16px;
 }
 
 .footer__author {
